@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Myocoach</title>
+    <style>
+        :root {
+            --primary: #1976D2;
+            --bg: #F8FAFC;
+            --card-bg: #FFFFFF;
+            --text: #1E293B;
+            --text-secondary: #475569;
+            --border: #E2E8F0;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0F172A;
+                --card-bg: #1E293B;
+                --text: #F8FAFC;
+                --text-secondary: #CBD5E1;
+                --border: #334155;
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.65;
+            margin: 0;
+            padding: 24px 16px;
+        }
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            border: 1px solid var(--border);
+        }
+        h1 {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+        .meta {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 16px;
+        }
+        h2 {
+            font-size: 1.35rem;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: var(--text);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 6px;
+        }
+        h3 {
+            font-size: 1.1rem;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+        p, li {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+        ul, ol {
+            padding-left: 24px;
+            margin-top: 6px;
+            margin-bottom: 16px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .highlight-box {
+            background-color: rgba(25, 118, 210, 0.08);
+            border-left: 4px solid var(--primary);
+            padding: 14px 18px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .highlight-box p {
+            margin: 0;
+            color: var(--text);
+            font-weight: 500;
+        }
+        code {
+            background: rgba(0, 0, 0, 0.06);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        a {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for Myocoach</h1>
+        <div class="meta">
+            <strong>Last updated:</strong> September 06, 2026
+        </div>
+
+        <p>This Privacy Policy describes Our policies and procedures on the collection, access, use, storage, and disclosure of your information when you use the Myocoach mobile application (the "Application" or "Service") and informs you of your privacy rights and legal protections.</p>
+        
+        <p>We use your Personal and Health Data to provide and improve the Service. By using Myocoach, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
+
+        <h2>1. Interpretation and Definitions</h2>
+        <ul>
+            <li><strong>Application (or "Service"):</strong> Refers to <strong>Myocoach</strong>, the fitness and athletic tracking mobile software program.</li>
+            <li><strong>Company ("We", "Us", or "Our"):</strong> Refers to Myocoach (Rajasthan, India).</li>
+            <li><strong>Device:</strong> Any mobile device that accesses the Service, including Android smartphones, smartwatches, and tablets.</li>
+            <li><strong>Personal Data:</strong> Any information relating to an identified or identifiable individual.</li>
+            <li><strong>Health Data:</strong> Data related to physical fitness, athletic training, physiological biometrics, body composition, sleep, and physical activity collected through user input, device sensors, connected Bluetooth wearables, or the Android Health Connect platform.</li>
+            <li><strong>Health Connect:</strong> Google's on-device platform and API on Android that enables applications to securely read, write, and synchronize health and fitness data with user consent.</li>
+        </ul>
+
+        <h2>2. Comprehensive Health and Fitness Data Disclosure</h2>
+        <p>Myocoach is a workout logging, strength training, and athletic conditioning application. To deliver features such as real-time biometric telemetry, training volume tracking, recovery baselines, and personalized workout analytics, Myocoach accesses, collects, and processes specific Health Data.</p>
+
+        <h3>A. Specific Categories of Health Data Collected &amp; Accessed</h3>
+        <ul>
+            <li><strong>Exercise and Workout Sessions (<code>READ_EXERCISE</code>, <code>WRITE_EXERCISE</code>):</strong> Exercise types, sets, reps, weight lifted, workout duration, rest intervals, and workout timestamps.</li>
+            <li><strong>Heart Rate and Biometrics (<code>READ_HEART_RATE</code>, <code>READ_RESTING_HEART_RATE</code>):</strong> Real-time continuous heart rate during active workouts and daily resting heart rate.</li>
+            <li><strong>Activity and Movement Metrics (<code>READ_STEPS</code>, <code>READ_DISTANCE</code>, <code>WRITE_DISTANCE</code>, <code>ACTIVITY_RECOGNITION</code>):</strong> Daily step count, distance traveled during cardio/workout sessions, and physical activity recognition state.</li>
+            <li><strong>Energy Expenditure (<code>READ_ACTIVE_CALORIES_BURNED</code>, <code>WRITE_ACTIVE_CALORIES_BURNED</code>, <code>READ_TOTAL_CALORIES_BURNED</code>, <code>WRITE_TOTAL_CALORIES_BURNED</code>):</strong> Active calories burned during exercise sessions and total estimated daily energy expenditure.</li>
+            <li><strong>Sleep and Recovery (<code>READ_SLEEP</code>):</strong> Sleep session duration and sleep intervals to estimate physical recovery readiness.</li>
+            <li><strong>Body Composition and Biometrics (<code>READ_HEIGHT</code>, <code>READ_WEIGHT</code>, <code>READ_BODY_FAT</code>, <code>READ_LEAN_BODY_MASS</code>):</strong> Body weight, height, body fat percentage, and lean body mass (e.g. from smart scales, InBody scans, or manual logs).</li>
+        </ul>
+
+        <h3>B. How We Access and Collect Health Data</h3>
+        <ol>
+            <li><strong>Direct User Input:</strong> Information you manually record in Myocoach, such as logged exercises, sets, repetitions, weights, body weight, or height.</li>
+            <li><strong>Bluetooth Low Energy (BLE) Wearables:</strong> With your explicit permission (<code>BLUETOOTH_SCAN</code>, <code>BLUETOOTH_CONNECT</code>), Myocoach connects to paired heart rate monitors and smartwatches to stream real-time heart rate telemetry during active workouts.</li>
+            <li><strong>Android Device Sensors:</strong> Utilizing the device's physical activity sensor (<code>ACTIVITY_RECOGNITION</code>) to detect workout motion and step progress.</li>
+            <li><strong>Google Health Connect APIs:</strong> With your explicit runtime permission, Myocoach reads historical and baseline health data (steps, sleep, resting heart rate, body composition) and writes completed workout sessions, distance, and calorie expenditure back to Health Connect.</li>
+        </ol>
+
+        <h3>C. How We Use Your Health Data</h3>
+        <ul>
+            <li><strong>Workout Tracking &amp; Progression:</strong> Logging exercise performance, calculating total training volume, and generating progressive overload recommendations.</li>
+            <li><strong>Heart Rate Zone Monitoring:</strong> Displaying real-time heart rate and cardiovascular effort zones during workouts.</li>
+            <li><strong>Metabolic &amp; Caloric Calculations:</strong> Calculating energy expenditure for completed workouts and syncing burned calories back to your health profile.</li>
+            <li><strong>Recovery &amp; Readiness Insights:</strong> Analyzing sleep duration, resting heart rate baselines, and step averages to provide contextual training fatigue insights.</li>
+            <li><strong>Body Composition Tracking:</strong> Visualizing changes in weight, body fat percentage, and lean muscle mass over time.</li>
+            <li><strong>Two-Way Ecosystem Synchronization:</strong> Writing your Myocoach workout sessions to Health Connect so other authorized health apps can access your workout data, and reading data from devices (e.g. smart scales) to populate your Myocoach profile.</li>
+        </ul>
+
+        <div class="highlight-box">
+            <p><strong>Medical Disclaimer:</strong> Myocoach is designed solely for fitness, athletic training, and personal wellness monitoring. Myocoach is not a medical device and is not intended to diagnose, treat, cure, or prevent any disease or medical condition. Always consult a qualified medical professional before starting any new exercise routine.</p>
+        </div>
+
+        <h2>3. Google Health Connect Limited Use Disclosure</h2>
+        <p>Myocoach's use and transfer to any other app of information received from Google Health Connect APIs adheres to the <strong>Google Play Health Connect Permissions Policy</strong>, including the <strong>Limited Use</strong> requirements:</p>
+        <ol>
+            <li><strong>Permitted Use Only:</strong> We only use Health Connect data to provide and improve user-facing features that are prominent in the Myocoach user interface.</li>
+            <li><strong>Prohibition on Advertising:</strong> Health Connect data is <strong>never</strong> used for advertising, interest-based ad targeting, retargeting, user profiling, or personalization of ads.</li>
+            <li><strong>Prohibition on Sale of Data:</strong> We do not sell, rent, lease, trade, or transfer Health Connect data to third parties, data brokers, advertising platforms, or information resellers under any circumstances.</li>
+            <li><strong>Strict Isolation from Advertising SDKs:</strong> Although Myocoach displays general banner/interstitial advertisements via Google AdMob, <strong>Health Connect data, biometric records, and health data are strictly isolated and are NEVER shared with, accessed by, or transmitted to Google AdMob or any other advertising SDK.</strong></li>
+            <li><strong>Human Access Restrictions:</strong> We do not allow human beings to read user Health Connect data unless:
+                <ul>
+                    <li>We have obtained your affirmative explicit consent for specific messages (e.g. customer technical support or troubleshooting);</li>
+                    <li>It is necessary for security purposes (such as investigating abuse or technical bugs);</li>
+                    <li>It is required to comply with applicable laws; or</li>
+                    <li>The data is aggregated and anonymized for internal system diagnostics.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h2>4. Other Data Collected and Device Permissions</h2>
+        <h3>A. Personal Account Data</h3>
+        <p>When you create an account or back up your data, we may collect your email address, name/display name, and authentication tokens (e.g., via Google Sign-In or Firebase Auth).</p>
+
+        <h3>B. Camera Access</h3>
+        <p>With your explicit runtime permission (<code>CAMERA</code>), Myocoach accesses your device camera <strong>solely to scan QR codes</strong> (e.g. gym equipment linking, profile sharing, or syncing workout routines). All QR processing is performed <strong>strictly on-device in real-time</strong>. Myocoach does <strong>not</strong> photograph, record, store, or transmit camera images or video feeds to any remote server.</p>
+
+        <h3>C. Bluetooth &amp; Nearby Devices</h3>
+        <p>Permissions (<code>BLUETOOTH_SCAN</code>, <code>BLUETOOTH_CONNECT</code>) are requested exclusively to scan for and connect to Bluetooth Low Energy (BLE) fitness accessories (heart rate straps, smart bands) during active workouts. We do not use Bluetooth for location tracking or marketing beacons.</p>
+
+        <h3>D. Technical &amp; Usage Diagnostics</h3>
+        <p>We automatically collect standard diagnostic data including device model, operating system version, app version, crash traces, and basic anonymous performance diagnostics to ensure application stability.</p>
+
+        <h2>5. Data Sharing and Third Parties</h2>
+        <p>We <strong>never</strong> sell your personal or health data. We only share information under the following limited circumstances:</p>
+        <ul>
+            <li><strong>Cloud Storage &amp; Infrastructure:</strong> We use secure cloud services (e.g., Google Firebase) to store authenticated user accounts and encrypted backups. These service providers act strictly as data processors under binding confidentiality agreements.</li>
+            <li><strong>Legal Compliance:</strong> We may disclose your information if legally required by valid subpoenas, court orders, or governmental regulations.</li>
+            <li><strong>Advertising Isolation:</strong> While general usage metrics and device identifiers may be processed by advertising networks (such as Google AdMob) for non-premium users, <strong>NO Health Data, Health Connect data, or biometric data is ever shared with or accessible to advertising partners.</strong></li>
+        </ul>
+
+        <h2>6. Data Security and Storage</h2>
+        <p>We employ industry-standard technical and organizational security controls to protect your health and personal data:</p>
+        <ul>
+            <li><strong>Encryption in Transit:</strong> All network communication between the application and backend servers is encrypted using modern Transport Layer Security (TLS 1.2/1.3 / HTTPS).</li>
+            <li><strong>On-Device Security:</strong> Health Connect data resides in Android's secure, hardware-backed on-device datastore.</li>
+            <li><strong>Access Controls:</strong> Cloud-backed data is accessible only through your authenticated credentials.</li>
+        </ul>
+
+        <h2>7. Data Retention and Deletion (Your Rights)</h2>
+        <ul>
+            <li><strong>Retention:</strong> We retain your workout history and profile metrics only as long as you maintain an active account in order to provide historical charts and training progression.</li>
+            <li><strong>Revoking Health Connect Permissions:</strong> You can review or revoke Myocoach's access to Health Connect permissions at any time directly through your device settings: <br>
+            <em>Android Settings &rarr; Security &amp; Privacy &rarr; Privacy &rarr; Health Connect &rarr; Apps with access &rarr; Myocoach</em>.</li>
+            <li><strong>Account &amp; Data Deletion:</strong> You have the absolute right to request the permanent deletion of your account, workout history, and all associated personal and health data. You can initiate deletion by:
+                <ol>
+                    <li>Using the in-app account deletion option in Settings, or</li>
+                    <li>Contacting us via email at <a href="mailto:pankajlalla29@gmail.com">pankajlalla29@gmail.com</a> with the subject line <em>"Data Deletion Request"</em>. All associated personal and health data will be permanently purged from active systems within 30 days.</li>
+                </ol>
+            </li>
+        </ul>
+
+        <h2>8. Children's Privacy</h2>
+        <p>Myocoach does not knowingly collect or solicit personal or health data from children under the age of 13 (or under 16 in certain jurisdictions). If you become aware that a child has provided us with personal data, please contact us immediately so we can remove the information.</p>
+
+        <h2>9. Changes to this Privacy Policy</h2>
+        <p>We may update this Privacy Policy periodically to reflect app updates, new features, or regulatory requirements. We will notify you of any material changes by updating the "Last updated" date at the top of this document.</p>
+
+        <h2>10. Contact Us</h2>
+        <p>If you have questions, feedback, or concerns regarding this Privacy Policy or our handling of your Health Data, please reach out to us:</p>
+        <ul>
+            <li><strong>By Email:</strong> <a href="mailto:pankajlalla29@gmail.com">pankajlalla29@gmail.com</a></li>
+            <li><strong>Developer / Application:</strong> Myocoach (Rajasthan, India)</li>
+        </ul>
+    </div>
+</body>
+</html>
